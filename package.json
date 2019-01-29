@@ -1,0 +1,19 @@
+{
+  "name": "oauth2-playground",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Nicolas Martinez <nicolas.martinez.ullan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon -w src",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.9"
+  }
+}
